@@ -85,8 +85,9 @@ header nav ul li{
     padding: 0.1rem;
 
     border-radius: 1rem;
-    
+
 }
+
 
 header nav ul li a{
     text-decoration: none;
@@ -94,10 +95,13 @@ header nav ul li a{
     color: rgb(18, 139, 18);
 
     font-weight: 800;
+
+    transition:all;
 }
 
 header nav ul li a:hover{
     color: greenyellow;
+
 }
 
 
@@ -250,17 +254,16 @@ footer p{
 
 /*ESTILOS-HEADER*/
 
-    header div div h1 a{
+header div div h1 a{
         font-size: 2.5rem;  /*Modificado*/
-    }
+}
     
-    header nav ul li{
+header nav ul li{
     
         font-size: 1.2rem; /*Modificado*/
 
         padding: 0.3rem;   /*Modificado*/
-    }
-    
+}
 
 
 /*ESTILOS-MAIN*/
@@ -350,8 +353,9 @@ footer div a img {
 
 
 header nav ul li{
-    padding: 0.8rem;   /*Modificado*/
+    padding: 0.3rem;   /*Modificado*/
 }
+
 
 /*ESTILOS-MAIN*/
 
@@ -655,7 +659,10 @@ grid-area: contsesioncopf;
 
 
 .contdescyfoto{
-    height: 60%;
+    height: 70%;
+    padding-left: 0.5rem;
+    border-radius:  5rem;
+    
 }
 
 
@@ -668,6 +675,22 @@ grid-area: contsesioncopf;
 .contdescyfoto article{
     margin-bottom:0rem ;
 }
+
+.contdescyfoto:hover{
+background-color: white;
+
+}
+
+.continfoadicional:hover{
+    background-color: white;
+}
+
+
+.continfoadicional{
+    border-radius: 3rem;
+    padding: 1rem;
+}
+
 
 }
 
@@ -771,6 +794,24 @@ grid-area:contdomenergetico;
     
 }
 
+.contdomenergetico{
+
+padding: 1.5rem;
+border-radius: 5rem;
+background-color: rgb(134, 134, 214);
+
+
+}
+
+.contdomenergetico article h2{
+    color: white;
+}
+
+.contdomenergetico article p{
+    color: black;
+}
+
+
 }
 
 /*------------------- SECTION | CONTACTO ----------------------------------*/
@@ -816,6 +857,8 @@ input::selection{
 
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+
+    color: green;
 } 
 
 .cotenedor__div div {
@@ -840,7 +883,7 @@ input::selection{
 
 textarea{
     resize: none;
-    width: 20rem;
+    width: 90%;
     height:18rem ;
 }
 
@@ -867,10 +910,11 @@ textarea{
 }
 
 fieldset{
-    background-color: white;
+    background-color: rgb(206, 225, 177);
 
-    border-radius: 0.2rem;
+    border-radius: 0.4rem;
 }
+
 
 
 @Media screen and (min-width:600px){
@@ -894,10 +938,11 @@ textarea{
 
     fieldset{
         width: 60%;
-        background-color: white;
+        background-color: rgb(206, 225, 177);
         margin: 0 auto;
         border-radius: 1rem;
     }
+
 
 
 }
@@ -919,7 +964,7 @@ textarea{
 
 fieldset{
     width: 40%;
-    background-color: white;
+    background-color: rgb(206, 225, 177);
     margin: 0 auto;
     border-radius: 1rem;
 }
